@@ -1,0 +1,15 @@
+C:\Users\paulm\source\repos\User_defined\obj\Debug\net6.0\User_defined.csproj.AssemblyReference.cache
+C:\Users\paulm\source\repos\User_defined\obj\Debug\net6.0\User_defined.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\paulm\source\repos\User_defined\obj\Debug\net6.0\User_defined.AssemblyInfoInputs.cache
+C:\Users\paulm\source\repos\User_defined\obj\Debug\net6.0\User_defined.AssemblyInfo.cs
+C:\Users\paulm\source\repos\User_defined\obj\Debug\net6.0\User_defined.csproj.CoreCompileInputs.cache
+C:\Users\paulm\source\repos\User_defined\bin\Debug\net6.0\User_defined.exe
+C:\Users\paulm\source\repos\User_defined\bin\Debug\net6.0\User_defined.deps.json
+C:\Users\paulm\source\repos\User_defined\bin\Debug\net6.0\User_defined.runtimeconfig.json
+C:\Users\paulm\source\repos\User_defined\bin\Debug\net6.0\User_defined.dll
+C:\Users\paulm\source\repos\User_defined\bin\Debug\net6.0\ref\User_defined.dll
+C:\Users\paulm\source\repos\User_defined\bin\Debug\net6.0\User_defined.pdb
+C:\Users\paulm\source\repos\User_defined\obj\Debug\net6.0\User_defined.dll
+C:\Users\paulm\source\repos\User_defined\obj\Debug\net6.0\ref\User_defined.dll
+C:\Users\paulm\source\repos\User_defined\obj\Debug\net6.0\User_defined.pdb
+C:\Users\paulm\source\repos\User_defined\obj\Debug\net6.0\User_defined.genruntimeconfig.cache
