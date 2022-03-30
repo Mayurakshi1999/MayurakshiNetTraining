@@ -1,0 +1,73 @@
+﻿@model QuizApplicationMVCDotNetFramework.BO.QuizBO
+
+@{
+    ViewBag.Title = "GetQuiz";
+}
+<link href="~/Content/GetQuiz.css" rel="stylesheet" />
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
+<h2>GetQuiz</h2>
+
+
+@using (Html.BeginForm("GetQuiz", "Quiz", FormMethod.Post))
+{
+    <div>
+        <div>
+
+            <p style="font-weight:800; font-size:x-large ">Question No. @Html.DisplayFor(model => model.Qid)</p>
+            <p style=" font-weight: 600; font-size: large"> @Html.DisplayFor(model => model.Question) </p>
+
+            @Html.HiddenFor(model => model.Qid)
+        </div>
+        <div>
+            <div class="col-md-6">
+                <p>@Html.RadioButtonFor(model => model.Option, Model.Option1)
+                @Html.DisplayFor(model => model.Option1)</p>
+            </div>
+            <div class="col-md-6">
+               <p> @Html.RadioButtonFor(model => model.Option, Model.Option2)
+                @Html.DisplayFor(model => model.Option2)</p>
+        
+            </div>
+            <div>
+                <p> </p>
+            </div>
+
+        </div>
+        <div>
+            <div class="col-md-6">
+                <p>@Html.RadioButtonFor(model => model.Option, Model.Option3)
+                @Html.DisplayFor(model => model.Option3)</p>
+            </div>
+            <div class="col-md-6">
+                <p>@Html.RadioButtonFor(model => model.Option, Model.Option4)
+                @Html.DisplayFor(model => model.Option4)</p>
+            </div>
+            </div>
+        @if (Convert.ToInt32(Request.QueryString["Qid"]) > 1 && Convert.ToInt32(Request.QueryString["Qid"]) < 6)
+        {
+
+            <div class="button">
+                <input type="submit" class="btn btn-warning" name="submit" id="previous" value="Previous" />
+                <input type="submit" class="btn btn-success" name="submit" id="submit" value="Next" />
+
+            </div>
+        }
+        else if (Convert.ToInt32(Request.QueryString["Qid"]) == 6)
+        {
+            <div class="button">
+                <input type="submit" class="btn btn-warning" name="submit" id="previous" value="Previous" />
+                <input type="submit" class="btn btn-success" name="submit" id="submit" value="Submit" />
+            </div>
+        }
+        else
+        {
+            <input type="submit" class="btn btn-success" name="submit" id="submit" value="Next" />
+        }
+
+    </div>
+
+}
+
+
+

@@ -1,0 +1,50 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<table>
+    <tr>
+        <td>@ViewBag.VBMessage</td>
+    </tr>
+    <tr>
+        @ViewData["ViewDataMessage"].ToString()
+    </tr>
+</table>
+
+<table>
+    @foreach (var Person in ViewBag.PersonLists)
+    {
+        <tr>
+            <td>@Person.PersonID</td>
+            <td>@Person.FirstName</td>
+            <td>@Person.LastName</td>
+            <td>@Person.Age</td>
+        </tr>
+    }
+</table>
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">PersonID</th>
+            <th scope="col">FirstName</th>
+            <th scope="col">LastName</th>
+            <th scope="col">Age</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var Person in ViewBag.PersonLists)
+        {
+            <tr>
+                <td>@Person.PersonID</td>
+                <td>@Person.FirstName</td>
+                <td>@Person.LastName</td>
+                <td>@Person.Age</td>
+            </tr>
+        }
+    </tbody>
+</table>

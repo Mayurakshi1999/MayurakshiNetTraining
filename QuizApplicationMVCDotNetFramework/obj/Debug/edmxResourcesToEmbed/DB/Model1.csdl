@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="studentModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ChosenAnswer">
+    <Key>
+      <PropertyRef Name="Ansid" />
+    </Key>
+    <Property Name="Ansid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Answer" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Qid" Type="Int32" />
+    <Property Name="Userid" Type="Int32" />
+    <NavigationProperty Name="Usertable" Relationship="studentModel.FK__ChosenAns__Useri__6754599E" FromRole="ChosenAnswer" ToRole="Usertable" />
+    <NavigationProperty Name="OnlineExam" Relationship="studentModel.FK__ChosenAnswe__Qid__68487DD7" FromRole="ChosenAnswer" ToRole="OnlineExam" />
+  </EntityType>
+  <EntityType Name="OnlineExam">
+    <Key>
+      <PropertyRef Name="Qid" />
+    </Key>
+    <Property Name="Qid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Question" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Option1" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Option2" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Option3" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Option4" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="CorrectAns" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="ChosenAnswers" Relationship="studentModel.FK__ChosenAnswe__Qid__68487DD7" FromRole="OnlineExam" ToRole="ChosenAnswer" />
+  </EntityType>
+  <EntityType Name="Usertable">
+    <Key>
+      <PropertyRef Name="Userid" />
+    </Key>
+    <Property Name="Userid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="100" FixedLength="true" Unicode="false" />
+    <Property Name="LastName" Type="String" MaxLength="100" FixedLength="true" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Marks" Type="Int32" />
+    <Property Name="Userguid" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="ChosenAnswers" Relationship="studentModel.FK__ChosenAns__Useri__6754599E" FromRole="Usertable" ToRole="ChosenAnswer" />
+  </EntityType>
+  <EntityContainer Name="studentEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ChosenAnswers" EntityType="Self.ChosenAnswer" />
+    <EntitySet Name="OnlineExams" EntityType="Self.OnlineExam" />
+    <EntitySet Name="Usertables" EntityType="Self.Usertable" />
+    <AssociationSet Name="FK__ChosenAns__Useri__6754599E" Association="studentModel.FK__ChosenAns__Useri__6754599E">
+      <End Role="Usertable" EntitySet="Usertables" />
+      <End Role="ChosenAnswer" EntitySet="ChosenAnswers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ChosenAnswe__Qid__68487DD7" Association="studentModel.FK__ChosenAnswe__Qid__68487DD7">
+      <End Role="OnlineExam" EntitySet="OnlineExams" />
+      <End Role="ChosenAnswer" EntitySet="ChosenAnswers" />
+    </AssociationSet>
+  </EntityContainer>
+  <Association Name="FK__ChosenAns__Useri__6754599E">
+    <End Type="studentModel.Usertable" Role="Usertable" Multiplicity="0..1" />
+    <End Type="studentModel.ChosenAnswer" Role="ChosenAnswer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usertable">
+        <PropertyRef Name="Userid" />
+      </Principal>
+      <Dependent Role="ChosenAnswer">
+        <PropertyRef Name="Userid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ChosenAnswe__Qid__68487DD7">
+    <End Type="studentModel.OnlineExam" Role="OnlineExam" Multiplicity="0..1" />
+    <End Type="studentModel.ChosenAnswer" Role="ChosenAnswer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OnlineExam">
+        <PropertyRef Name="Qid" />
+      </Principal>
+      <Dependent Role="ChosenAnswer">
+        <PropertyRef Name="Qid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

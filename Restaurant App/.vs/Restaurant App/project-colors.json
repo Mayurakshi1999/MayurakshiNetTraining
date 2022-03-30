@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "dbf54d3a-dcbf-4355-b174-8371901a96ec": {
+      "ProjectGuid": "dbf54d3a-dcbf-4355-b174-8371901a96ec",
+      "DisplayName": "Restaurant App",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

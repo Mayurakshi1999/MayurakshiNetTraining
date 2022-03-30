@@ -1,0 +1,26 @@
+C:\Users\paulm\source\repos\Restaurant App\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\paulm\source\repos\Restaurant App\bin\Debug\net6.0\appsettings.json
+C:\Users\paulm\source\repos\Restaurant App\bin\Debug\net6.0\Restaurant App.staticwebassets.runtime.json
+C:\Users\paulm\source\repos\Restaurant App\bin\Debug\net6.0\Restaurant App.exe
+C:\Users\paulm\source\repos\Restaurant App\bin\Debug\net6.0\Restaurant App.deps.json
+C:\Users\paulm\source\repos\Restaurant App\bin\Debug\net6.0\Restaurant App.runtimeconfig.json
+C:\Users\paulm\source\repos\Restaurant App\bin\Debug\net6.0\Restaurant App.dll
+C:\Users\paulm\source\repos\Restaurant App\bin\Debug\net6.0\ref\Restaurant App.dll
+C:\Users\paulm\source\repos\Restaurant App\bin\Debug\net6.0\Restaurant App.pdb
+C:\Users\paulm\source\repos\Restaurant App\obj\Debug\net6.0\Restaurant App.csproj.AssemblyReference.cache
+C:\Users\paulm\source\repos\Restaurant App\obj\Debug\net6.0\Restaurant App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\paulm\source\repos\Restaurant App\obj\Debug\net6.0\Restaurant App.AssemblyInfoInputs.cache
+C:\Users\paulm\source\repos\Restaurant App\obj\Debug\net6.0\Restaurant App.AssemblyInfo.cs
+C:\Users\paulm\source\repos\Restaurant App\obj\Debug\net6.0\Restaurant App.csproj.CoreCompileInputs.cache
+C:\Users\paulm\source\repos\Restaurant App\obj\Debug\net6.0\Restaurant App.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\paulm\source\repos\Restaurant App\obj\Debug\net6.0\Restaurant App.RazorAssemblyInfo.cache
+C:\Users\paulm\source\repos\Restaurant App\obj\Debug\net6.0\Restaurant App.RazorAssemblyInfo.cs
+C:\Users\paulm\source\repos\Restaurant App\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\paulm\source\repos\Restaurant App\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\paulm\source\repos\Restaurant App\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\paulm\source\repos\Restaurant App\obj\Debug\net6.0\scopedcss\bundle\Restaurant App.styles.css
+C:\Users\paulm\source\repos\Restaurant App\obj\Debug\net6.0\scopedcss\projectbundle\Restaurant App.bundle.scp.css
+C:\Users\paulm\source\repos\Restaurant App\obj\Debug\net6.0\Restaurant App.dll
+C:\Users\paulm\source\repos\Restaurant App\obj\Debug\net6.0\ref\Restaurant App.dll
+C:\Users\paulm\source\repos\Restaurant App\obj\Debug\net6.0\Restaurant App.pdb
+C:\Users\paulm\source\repos\Restaurant App\obj\Debug\net6.0\Restaurant App.genruntimeconfig.cache

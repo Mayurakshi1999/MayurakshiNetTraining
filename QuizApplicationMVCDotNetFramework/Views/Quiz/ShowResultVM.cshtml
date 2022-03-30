@@ -1,0 +1,77 @@
+﻿@model QuizApplicationMVCDotNetFramework.BO.ResultsBO
+@{
+    ViewBag.Title = "Exam Result";
+}
+<center><h2>Exam Result</h2></center>
+<center>
+    <table style="width:350px;border:1px solid #dddddd;" class="table table-striped">
+        <tbody class="thead-light">
+            <tr>
+                <td scope="col">@Html.DisplayNameFor(model => model.FirstName)</td>
+                <th scope="row">@Html.DisplayFor(model => model.FirstName, new { @style = "width:50px;" })</th>
+            </tr>
+            <tr>
+                <td scope="col">@Html.DisplayNameFor(model => model.LastName)</td>
+                <td>@Html.DisplayFor(model => model.LastName, new { @style = "width:50px;" })</td>
+            </tr>
+            <tr>
+                <td scope="col">@Html.DisplayNameFor(model => model.Email)</td>
+                <td>@Html.DisplayFor(model => model.Email, new { @style = "width:50px;" })</td>
+            </tr>
+            <tr>
+                <td scope="col">@Html.DisplayNameFor(model => model.Marks)</td>
+                <td>@Html.DisplayFor(model => model.Marks, new { @style = "width:50px;" }) Out of @Html.DisplayFor(model => model.TotalMarks, new { @style = "width:50px;" })</td>
+            </tr>
+        </tbody>
+    </table>
+</center>
+
+<table class="table">
+    <thead class="thead-light">
+        <tr>
+            <th scope="col">@Html.DisplayNameFor(model => model.Answers.FirstOrDefault().UserId)</th>
+            <th scope="col">@Html.DisplayNameFor(model => model.Answers.FirstOrDefault().QId)</th>
+            <th scope="col">@Html.DisplayNameFor(model => model.Answers.FirstOrDefault().Question)</th>
+            <th scope="col">@Html.DisplayNameFor(model => model.Answers.FirstOrDefault().Answer)</th>
+            <th scope="col">@Html.DisplayNameFor(model => model.Answers.FirstOrDefault().ChosenAnswer)</th>
+            <th scope="col"></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Answers)
+        {
+            <tr>
+                <td scope="row">@Html.DisplayFor(model => item.UserId, new { @style = "width:50px;" })</td>
+                <td>@Html.DisplayFor(model => item.QId, new { @style = "width:50px;" })</td>
+                <td>@Html.DisplayFor(model => item.Question, new { @style = "width:50px;" })</td>
+                <td>@Html.DisplayFor(model => item.Answer, new { @style = "width:50px;" })</td>
+                <td>@Html.DisplayFor(model => item.ChosenAnswer, new { @style = "width:50px;" })</td>
+                <td>
+                    @if (item.Answer == item.ChosenAnswer)
+                    {
+                        <img src="~/Content/Images/True.jpg" width="25" />
+                    }
+                    else
+                    {
+                        <img src="~/Content/Images/False.jpg" width="25" />
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+@if (Model.Marks< 3)
+{
+    <div style="text-align: center">
+        <p style="font-weight: 800; font-size: x-large; color: red; border-style: solid">Fail</p>
+    </div>
+}
+else
+            {
+                <div style="text-align: center">
+                    <p style="font-weight: 800; font-size: x-large; color: green; border-style: solid">Pass</p>
+                </div>
+            }

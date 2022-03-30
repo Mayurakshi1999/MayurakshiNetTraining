@@ -1,0 +1,41 @@
+﻿@model IEnumerable<QuizApplicationMVCDotNetFramework.BO.AnswerBO>
+@{
+    ViewBag.Title = "ShowResult";
+}
+<h2>ShowResult</h2>
+<h4><b>Total Questions:</b> @Model.Count()</h4>
+
+<table class="table">
+    <thead class="thead-light">
+        <tr>
+            <th scope="col">@Html.DisplayNameFor(model => model.FirstOrDefault().UserId)</th>
+            <th scope="col">@Html.DisplayNameFor(model => model.FirstOrDefault().QId)</th>
+            <th scope="col">@Html.DisplayNameFor(model => model.FirstOrDefault().Question)</th>
+            <th scope="col">@Html.DisplayNameFor(model => model.FirstOrDefault().Answer)</th>
+            <th scope="col">@Html.DisplayNameFor(model => model.FirstOrDefault().ChosenAnswer)</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th scope="row">@Html.DisplayFor(model => item.UserId, new { @style = "width:50px;" })</th>
+                <td>@Html.DisplayFor(model => item.QId, new { @style = "width:50px;" })</td>
+                <td>@Html.DisplayFor(model => item.Question, new { @style = "width:50px;" })</td>
+                <td>@Html.DisplayFor(model => item.Answer, new { @style = "width:50px;" })</td>
+                <td>@Html.DisplayFor(model => item.ChosenAnswer, new { @style = "width:50px;" })</td>
+                <td>
+                    @if (item.Answer == item.ChosenAnswer)
+                    {
+                        <img src="~/Content/Images/True.jpg" width="25" />
+                    }
+                    else
+                    {
+                        <img src="~/Content/Images/False.jpg" width="25" />
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

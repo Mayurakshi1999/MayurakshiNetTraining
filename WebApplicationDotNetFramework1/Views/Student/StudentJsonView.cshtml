@@ -1,0 +1,29 @@
+﻿@{ 
+    ViewBag.Title= "Students List";
+}
+
+<script src="~/Scripts/Custom/Student.js"></script>
+<div class="container">
+    <h2>Students List</h2>
+    <p>All the Students Information</p>
+    <div class="row">
+        <div class="col-md-2 col-md-offset-10">
+            @Html.ActionLink("Create Student", "CreateStudentAjax")
+        </div>
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Firstname</th>
+                <th>LastName</th>
+                <th>RollNo</th>
+                <th>Marks</th>
+                <th>Branch</th>
+                <th>Date of Birth</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody Id="tblData"></tbody>
+    </table>
+</div>

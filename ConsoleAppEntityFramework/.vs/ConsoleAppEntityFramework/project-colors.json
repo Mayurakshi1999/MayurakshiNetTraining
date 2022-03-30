@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9f3c10a6-aab5-4563-a76a-645ec0482ccc": {
+      "ProjectGuid": "9f3c10a6-aab5-4563-a76a-645ec0482ccc",
+      "DisplayName": "ConsoleAppEntityFramework",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

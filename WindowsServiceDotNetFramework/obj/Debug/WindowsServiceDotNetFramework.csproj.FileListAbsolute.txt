@@ -1,0 +1,8 @@
+C:\Users\paulm\source\repos\WindowsServiceDotNetFramework\bin\Debug\WindowsServiceDotNetFramework.exe.config
+C:\Users\paulm\source\repos\WindowsServiceDotNetFramework\bin\Debug\WindowsServiceDotNetFramework.exe
+C:\Users\paulm\source\repos\WindowsServiceDotNetFramework\bin\Debug\WindowsServiceDotNetFramework.pdb
+C:\Users\paulm\source\repos\WindowsServiceDotNetFramework\obj\Debug\WindowsServiceDotNetFramework.csproj.AssemblyReference.cache
+C:\Users\paulm\source\repos\WindowsServiceDotNetFramework\obj\Debug\WindowsServiceDotNetFramework.csproj.SuggestedBindingRedirects.cache
+C:\Users\paulm\source\repos\WindowsServiceDotNetFramework\obj\Debug\WindowsServiceDotNetFramework.csproj.CoreCompileInputs.cache
+C:\Users\paulm\source\repos\WindowsServiceDotNetFramework\obj\Debug\WindowsServiceDotNetFramework.exe
+C:\Users\paulm\source\repos\WindowsServiceDotNetFramework\obj\Debug\WindowsServiceDotNetFramework.pdb

@@ -1,0 +1,305 @@
+﻿++Solution 'MenuApi' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:MenuApi.sln
+++MenuApi
+i:{00000000-0000-0000-0000-000000000000}:MenuApi
+++Connected Services 
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:>29
+++Dependencies
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:>28
+++Analyzers
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:analyzers
+++Frameworks
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:frameworks
+++Packages
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:packages
+++Microsoft.EntityFrameworkCore (6.0.2)
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:>122
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.2)
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:>125
+++Microsoft.EntityFrameworkCore.Tools (6.0.2)
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:>124
+++Swashbuckle.AspNetCore (6.2.3)
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:>49
+++Imports
+++Properties
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\users\paulm\source\repos\menuapi\properties\
+++bin
+++BO
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\users\paulm\source\repos\menuapi\bo\
+++ChoiceBO.cs
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\users\paulm\source\repos\menuapi\bo\choicebo.cs
+++MenuBO.cs
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\users\paulm\source\repos\menuapi\bo\menubo.cs
+++MenuCardBO.cs
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\users\paulm\source\repos\menuapi\bo\menucardbo.cs
+++Controllers
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\users\paulm\source\repos\menuapi\controllers\
+++DAL
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\users\paulm\source\repos\menuapi\dal\
+++DB
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\users\paulm\source\repos\menuapi\db\
+++info.txt
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\users\paulm\source\repos\menuapi\db\info.txt
+++obj
+++appsettings.json
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\users\paulm\source\repos\menuapi\appsettings.json
+++appsettings.Development.json
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\users\paulm\source\repos\menuapi\appsettings.development.json
+++MenuApi.sln
+++Program.cs
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\users\paulm\source\repos\menuapi\program.cs
+++WeatherForecast.cs
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\users\paulm\source\repos\menuapi\weatherforecast.cs
+++No service dependencies discovered
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:>30
+++Microsoft.AspNetCore.Analyzers
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\users\paulm\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\users\paulm\source\repos\menuapi\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\users\paulm\source\repos\menuapi\microsoft.netcore.app
+++Sdk.props
+++Sdk.targets
+++launchSettings.json
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\users\paulm\source\repos\menuapi\properties\launchsettings.json
+++Debug
+++MenuController.cs
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\users\paulm\source\repos\menuapi\controllers\menucontroller.cs
+++WeatherForecastController.cs
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\users\paulm\source\repos\menuapi\controllers\weatherforecastcontroller.cs
+++IMenuDAL.cs
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\users\paulm\source\repos\menuapi\dal\imenudal.cs
+++MenuDAL.cs
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\users\paulm\source\repos\menuapi\dal\menudal.cs
+++MenuApi.csproj.nuget.dgspec.json
+++MenuApi.csproj.nuget.g.props
+++MenuApi.csproj.nuget.g.targets
+++project.assets.json
+++project.nuget.cache
+++staticwebassets.pack.sentinel
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.101\Sdks\Microsoft.NET.Sdk\Sdk)
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.101\Sdks\Microsoft.NET.Sdk.Razor\Sdk)
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.101\Sdks\Microsoft.NET.Sdk.Web.ProjectSystem\Sdk)
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.101\Sdks\Microsoft.NET.Sdk.Publish\Sdk)
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.101\Sdks\Microsoft.NET.Sdk\Sdk)
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.101\Sdks\Microsoft.NET.Sdk.Razor\Sdk)
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.101\Sdks\Microsoft.NET.Sdk.Web.ProjectSystem\Sdk)
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.101\Sdks\Microsoft.NET.Sdk.Publish\Sdk)
+++net6.0
+++Microsoft.Common.props
+++Microsoft.NET.Sdk.props
+++Sdk.Razor.CurrentVersion.props
+++Microsoft.NET.Sdk.Web.ProjectSystem.props
+++Microsoft.NET.Sdk.Publish.props
+++Microsoft.NET.Sdk.BeforeCommon.targets
+++Microsoft.CSharp.targets
+++Microsoft.NET.Sdk.targets
+++Microsoft.NET.Compatibility.targets
+++NuGet.Build.Tasks.Pack.targets
+++Sdk.Razor.CurrentVersion.targets
+++Microsoft.NET.Sdk.Web.ProjectSystem.targets
+++Microsoft.NET.Sdk.Publish.targets
+++ref
+++runtimes
+++Humanizer.dll
+++MenuApi.deps.json
+++MenuApi.dll
+++MenuApi.exe
+++MenuApi.pdb
+++MenuApi.runtimeconfig.json
+++Microsoft.Data.SqlClient.dll
+++Microsoft.EntityFrameworkCore.Abstractions.dll
+++Microsoft.EntityFrameworkCore.Design.dll
+++Microsoft.EntityFrameworkCore.dll
+++Microsoft.EntityFrameworkCore.Relational.dll
+++Microsoft.EntityFrameworkCore.SqlServer.dll
+++Microsoft.Extensions.Caching.Memory.dll
+++Microsoft.Identity.Client.dll
+++Microsoft.IdentityModel.JsonWebTokens.dll
+++Microsoft.IdentityModel.Logging.dll
+++Microsoft.IdentityModel.Protocols.dll
+++Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+++Microsoft.IdentityModel.Tokens.dll
+++Microsoft.OpenApi.dll
+++Microsoft.Win32.SystemEvents.dll
+++Swashbuckle.AspNetCore.Swagger.dll
+++Swashbuckle.AspNetCore.SwaggerGen.dll
+++Swashbuckle.AspNetCore.SwaggerUI.dll
+++System.Configuration.ConfigurationManager.dll
+++System.Drawing.Common.dll
+++System.IdentityModel.Tokens.Jwt.dll
+++System.Runtime.Caching.dll
+++System.Security.Cryptography.ProtectedData.dll
+++System.Security.Permissions.dll
+++System.Windows.Extensions.dll
+++staticwebassets
+++.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+++apphost.exe
+++MenuApi.AssemblyInfo.cs
+++MenuApi.AssemblyInfoInputs.cache
+++MenuApi.assets.cache
+++MenuApi.csproj.AssemblyReference.cache
+++MenuApi.csproj.CopyComplete
+++MenuApi.csproj.CoreCompileInputs.cache
+++MenuApi.csproj.FileListAbsolute.txt
+++MenuApi.GeneratedMSBuildEditorConfig.editorconfig
+++MenuApi.genruntimeconfig.cache
+++MenuApi.GlobalUsings.g.cs
+++MenuApi.MvcApplicationPartsAssemblyInfo.cache
+++MenuApi.MvcApplicationPartsAssemblyInfo.cs
+++staticwebassets.build.json
+++Microsoft.NuGet.ImportBefore.props
+++NuGet.props
+++Microsoft.NET.Sdk.DefaultItems.props
+++Microsoft.NET.Sdk.ImportWorkloads.props
+++Microsoft.NET.SupportedTargetFrameworks.props
+++Microsoft.NET.SupportedPlatforms.props
+++Microsoft.NET.WindowsSdkSupportedTargetPlatforms.props
+++Microsoft.NET.Sdk.CSharp.props
+++Microsoft.NET.ILLink.props
+++Microsoft.NET.Compatibility.props
+++Microsoft.NET.PackTool.props
+++Microsoft.NET.PackProjectTool.props
+++Microsoft.NET.Sdk.WindowsDesktop.props
+++Microsoft.NET.Windows.props
+++Sdk.Razor.StaticAssets.ProjectSystem.props
+++Microsoft.TypeScript.Default.props
+++Microsoft.NET.Sdk.Web.DefaultItems.props
+++Microsoft.NET.DefaultAssemblyInfo.targets
+++Microsoft.NET.DefaultOutputPaths.targets
+++Microsoft.NET.Sdk.ImportPublishProfile.targets
+++Microsoft.NET.TargetFrameworkInference.targets
+++Microsoft.NET.Sdk.Razor.BeforeCommon.targets
+++Microsoft.NET.Sdk.ImportWorkloads.targets
+++Microsoft.NET.RuntimeIdentifierInference.targets
+++Microsoft.NET.EolTargetFrameworks.targets
+++Microsoft.NET.NuGetOfflineCache.targets
+++Microsoft.Managed.Before.targets
+++Microsoft.CSharp.CurrentVersion.targets
+++Microsoft.Managed.After.targets
+++Microsoft.NET.Sdk.Common.targets
+++Microsoft.PackageDependencyResolution.targets
+++Microsoft.NET.Sdk.DefaultItems.targets
+++Microsoft.NET.Sdk.FrameworkReferenceResolution.targets
+++Microsoft.NET.Sdk.Shared.targets
+++Microsoft.NET.DisableStandardFrameworkResolution.targets
+++Microsoft.NET.DesignerSupport.targets
+++Microsoft.NET.GenerateAssemblyInfo.targets
+++Microsoft.NET.GenerateGlobalUsings.targets
+++Microsoft.NET.GenerateSupportedRuntime.targets
+++Microsoft.NET.ComposeStore.targets
+++Microsoft.NET.CrossGen.targets
+++Microsoft.NET.ObsoleteReferences.targets
+++Microsoft.NET.Publish.targets
+++Microsoft.NET.PackTool.targets
+++Microsoft.NET.PackProjectTool.targets
+++Microsoft.NET.PreserveCompilationContext.targets
+++Microsoft.NET.ConflictResolution.targets
+++Microsoft.NET.Sdk.CSharp.targets
+++Microsoft.NET.ILLink.targets
+++Microsoft.NET.Sdk.Analyzers.targets
+++Microsoft.NET.Compatibility.Common.targets
+++Microsoft.NET.Sdk.Razor.Configuration.targets
+++Microsoft.NET.Sdk.Razor.CodeGeneration.targets
+++Microsoft.NET.Sdk.Razor.SourceGenerators.targets
+++Microsoft.NET.Sdk.Razor.StaticWebAssets.targets
+++Microsoft.NET.Sdk.Razor.ScopedCss.targets
+++Microsoft.NET.Sdk.Razor.JSModules.targets
+++Microsoft.NET.Sdk.Razor.GenerateAssemblyInfo.targets
+++Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets
+++Microsoft.NET.Sdk.Razor.DesignTime.targets
+++Microsoft.TypeScript.targets
+++Microsoft.TypeScript.DotNetCore.targets
+++Microsoft.Web.Designtime.targets
+++Default.pubxml
+++Microsoft.NET.Sdk.Publish.ComputeFiles.targets
+++Microsoft.NET.Sdk.Publish.FilterFiles.targets
+++Microsoft.NET.Sdk.Publish.CopyFiles.targets
+++Microsoft.NET.Sdk.Publish.TransformFiles.targets
+++Microsoft.NET.Sdk.Publish.FileSystem.targets
+++Microsoft.NET.Sdk.DotNetCLITool.targets
+++unix
+++win
+++win-arm
+++win-arm64
+++win-x64
+++win-x86
+++Microsoft.Extensions.ApiDescription.Server.props
+++Swashbuckle.AspNetCore.props
+++Microsoft.EntityFrameworkCore.Design.props
+++Microsoft.NuGet.props
+++Microsoft.NETCoreSdk.BundledVersions.props
+++Microsoft.NET.Sdk.WindowsDesktop.WindowsForms.props
+++Microsoft.NET.Sdk.WindowsDesktop.WPF.props
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.android)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.ios)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maccatalyst)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.macos)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maui)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.tvos)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.emscripten)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.mono.toolchain)
+++Microsoft.CSharp.Core.targets
+++Microsoft.CSharp.DesignTime.targets
+++Microsoft.Common.targets
+++Microsoft.ServiceModel.targets
+++Microsoft.NET.Sdk.DefaultItems.Shared.targets
+++Microsoft.NETCoreSdk.BundledCliTools.props
+++Microsoft.NET.DefaultPackageConflictOverrides.targets
+++Microsoft.CodeAnalysis.NetAnalyzers.props
+++Microsoft.CodeAnalysis.NetAnalyzers.targets
+++lib
+++native
+++Microsoft.NET.ILLink.Tasks.props
+++System.Windows.Forms.Analyzers.props
+++Microsoft.Managed.Core.targets
+++Microsoft.Managed.DesignTime.targets
+++Microsoft.Common.CurrentVersion.targets
+++netcoreapp3.0
+++netcoreapp3.1
+++netstandard2.0
+++Microsoft.Data.SqlClient.SNI.dll
+++Microsoft.Managed.Core.CurrentVersions.targets
+++Microsoft.NET.props
+++Microsoft.CodeAnalysis.targets
+++Microsoft.Xaml.targets
+++Microsoft.WorkflowBuildExtensions.targets
+++Microsoft.TeamTest.targets
+++NuGet.targets
+++Microsoft.Docker.ImportAfter.targets
+++Microsoft.NET.Build.Extensions.targets
+++Microsoft.NuGet.ImportAfter.targets
+++Microsoft.Web.ImportAfter.targets
+++Microsoft.Extensions.ApiDescription.Server.targets
+++Microsoft.Docker.targets
+++Microsoft.Web.IISSupport.targets
+++Dishes.cs
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\users\paulm\source\repos\menuapi\db\dishes.cs
+++FoodChoices.cs
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\users\paulm\source\repos\menuapi\db\foodchoices.cs
+++MenuCard.cs
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\users\paulm\source\repos\menuapi\db\menucard.cs
+++TrainingDbContext.cs
+i:{6d875857-a674-4a34-a47a-080d0f8c8ebc}:c:\users\paulm\source\repos\menuapi\db\trainingdbcontext.cs
