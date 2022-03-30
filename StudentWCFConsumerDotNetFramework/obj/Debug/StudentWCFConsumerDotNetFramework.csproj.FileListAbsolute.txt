@@ -1,0 +1,8 @@
+C:\Users\paulm\source\repos\StudentWCFConsumerDotNetFramework\bin\Debug\StudentWCFConsumerDotNetFramework.exe.config
+C:\Users\paulm\source\repos\StudentWCFConsumerDotNetFramework\bin\Debug\StudentWCFConsumerDotNetFramework.exe
+C:\Users\paulm\source\repos\StudentWCFConsumerDotNetFramework\bin\Debug\StudentWCFConsumerDotNetFramework.pdb
+C:\Users\paulm\source\repos\StudentWCFConsumerDotNetFramework\obj\Debug\StudentWCFConsumerDotNetFramework.csproj.AssemblyReference.cache
+C:\Users\paulm\source\repos\StudentWCFConsumerDotNetFramework\obj\Debug\StudentWCFConsumerDotNetFramework.csproj.SuggestedBindingRedirects.cache
+C:\Users\paulm\source\repos\StudentWCFConsumerDotNetFramework\obj\Debug\StudentWCFConsumerDotNetFramework.csproj.CoreCompileInputs.cache
+C:\Users\paulm\source\repos\StudentWCFConsumerDotNetFramework\obj\Debug\StudentWCFConsumerDotNetFramework.exe
+C:\Users\paulm\source\repos\StudentWCFConsumerDotNetFramework\obj\Debug\StudentWCFConsumerDotNetFramework.pdb
